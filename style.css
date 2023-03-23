@@ -1,9 +1,9 @@
 * {
   padding: 0px;
-  margin: 0;
 }
 .box {
-  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: "Hind Siliguri", sans-serif;
   line-height: 1;
   width: 1200px;
