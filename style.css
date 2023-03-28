@@ -1,5 +1,6 @@
 * {
   padding: 0px;
+  margin: 0px;
 }
 .box {
   margin-left: auto;
@@ -7,7 +8,55 @@
   font-family: "Hind Siliguri", sans-serif;
   line-height: 1;
   width: 1200px;
-  height: 611px;
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  position: relative;
+  width: 1140px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav h6,
+h5 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.nav h6::after {
+  content: "";
+  border: solid rgba(0, 0, 0, 0.6);
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  padding: 4px;
+  margin-left: 7px;
+  margin-bottom: 3px;
+}
+.linkedtech {
+  width: 106px;
+  height: 26px;
+  position: absolute;
+  left: 0;
+}
+.navBut {
+  position: absolute;
+  right: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.navBut img {
+  margin-left: 20px;
+}
+
+.contentColumn {
   display: flex;
   flex-direction: row;
 }
@@ -85,4 +134,85 @@
 .columnImg {
   width: 643px;
   height: 611px;
+}
+
+.logo {
+  width: 1140px;
+  height: 237px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 10px 50px 80px rgba(174, 174, 174, 0.15);
+}
+.product {
+  width: 1140px;
+  height: 540px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.column-product {
+  position: relative;
+  width: 560px;
+  height: 270px;
+  display: flex;
+  flex-direction: row;
+}
+.headphones-product {
+  position: relative;
+  width: 560px;
+  height: 270px;
+  display: flex;
+  flex-direction: row;
+}
+.korz {
+  position: absolute;
+  right: 253px;
+  top: -23px;
+  width: 45px;
+  height: 45px;
+}
+.product-text {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.product-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.product-text img {
+  width: 65px;
+  height: 12px;
+}
+
+.product-text h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.product-text h3 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.product-price h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: -15px;
+}
+.product-price h5 {
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 0.5;
+  text-decoration-line: line-through;
+}
+.product-price h4::after {
+  content: "/";
+  margin-left: 10px;
+  text-decoration: none;
+  opacity: 0.5;
 }
