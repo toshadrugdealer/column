@@ -216,3 +216,135 @@ h5 {
   text-decoration: none;
   opacity: 0.5;
 }
+.box-technique {
+  width: 1140px;
+  height: 333px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box-quadrocopter {
+  position: relative;
+  width: 555px;
+  height: 296px;
+  background: linear-gradient(257.26deg, #008bf0 -13.2%, #d943c9 130.95%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.box-quadrocopter img {
+  position: absolute;
+  right: -40px;
+}
+
+.box-camera {
+  position: relative;
+  width: 555px;
+  height: 296px;
+  background: linear-gradient(257.26deg, #008bf0 -13.2%, #d943c9 130.95%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.box-camera img {
+  position: absolute;
+  right: 0px;
+}
+.box-text {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 100px;
+}
+.box-text h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(244, 249, 252, 0.6);
+  text-transform: uppercase;
+  line-height: 27px;
+  width: 250px;
+}
+.box-text h2 {
+  font-size: 31px;
+  font-weight: 600;
+  color: rgba(244, 249, 252, 1);
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 250px;
+}
+.box-text h5 {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(244, 249, 252, 1);
+  text-transform: uppercase;
+  line-height: 27px;
+  width: 250px;
+  margin: 0;
+}
+.girlAndEgg {
+  width: 1140px;
+  height: 870px;
+  position: relative;
+}
+.girlAndEgg::after {
+  content: url(./img/fon.svg);
+  width: 1600px;
+  height: 632px;
+  position: absolute;
+  bottom: 0;
+  left: -230px;
+}
+.girlAndEgg img {
+  z-index: 1;
+  position: absolute;
+  left: -120px;
+  background-image: url(./img/egg.svg);
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.girl-text {
+  z-index: 1;
+  position: absolute;
+  top: 130px;
+  right: 0;
+  width: 450px;
+}
+.girl-text h6 {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(199, 37, 53, 0.6);
+  text-transform: uppercase;
+  line-height: 23px;
+}
+.girl-text h2 {
+  font-size: 44px;
+  font-weight: 600;
+  color: rgba(3, 13, 21, 1);
+  line-height: 71px;
+  margin-bottom: 50px;
+}
+.girl-text h5 {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(3, 13, 21, 0.6);
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.par {
+  margin-top: 50px;
+}
+.girlAndEgg p {
+  color: rgba(3, 13, 21, 1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.girlAndEgg p::before {
+  content: url(./img/gl.svg);
+  margin-right: 13px;
+}
