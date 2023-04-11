@@ -1,0 +1,194 @@
+@media (max-width: 820px) {
+  .box {
+    width: 820px;
+    .nav {
+      width: 820px;
+      h5,
+      h6 {
+        margin-right: 5px;
+        margin-left: 5px;
+      }
+      .linkedtech {
+        margin-left: 30px;
+      }
+      .navBut {
+        position: absolute;
+        right: 40px;
+      }
+    }
+  }
+  .contentColumn {
+    width: 820px;
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 30px;
+      width: 400px;
+      height: 350px;
+      .Favorite {
+        font-size: 14px;
+        line-height: 24px;
+      }
+      .anExciting {
+        font-size: 24px;
+        line-height: 34px;
+      }
+      .familyShop {
+        font-size: 24px;
+        line-height: 34px;
+      }
+      .lorem {
+        font-size: 12px;
+      }
+      .buttonPrise {
+        .prise,
+        .priseSolid {
+          font-size: 18px;
+        }
+      }
+    }
+    .columnImg {
+      margin-left: 20px;
+      margin-top: 20px;
+      width: 320px;
+      height: 300px;
+    }
+  }
+  .logo {
+    width: 820px;
+    height: 200px;
+    box-shadow: 0 50px 80px rgba(174, 174, 174, 0.15);
+    img {
+      width: 120px;
+      margin-right: 30px;
+    }
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    width: 820px;
+    height: 650px;
+    margin-bottom: 10px;
+    .column-product {
+      margin-top: 30px;
+      .korz {
+        top: -10px;
+        left: 240px;
+      }
+    }
+    .product-text {
+      margin-left: 40px;
+    }
+    .headphones-product {
+      .korz {
+        top: -10px;
+        left: 240px;
+      }
+    }
+  }
+  .box-technique {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 820px;
+    height: 650px;
+    .box-camera {
+      width: 600px;
+      height: 300px;
+      .box-text {
+        margin-top: -90px;
+      }
+    }
+    .box-quadrocopter {
+      width: 600px;
+      height: 300px;
+    }
+    .box-text {
+      margin-top: -90px;
+    }
+  }
+  .girlAndEgg {
+    width: 820px;
+    height: 500px;
+    .girlAndEgg-fon {
+      width: 1050px;
+      height: 300px;
+    }
+    img {
+      width: 350px;
+      margin-left: 150px;
+    }
+    .girl-text {
+      top: 50px;
+      right: -30px;
+      h6 {
+        font-size: 14px;
+      }
+      h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+      h5 {
+        width: 400px;
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+      .par {
+        margin-top: 20px;
+        width: 400px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 24px;
+      }
+    }
+  }
+  .contact {
+    width: 820px;
+    margin-left: 0;
+    .contact-but {
+      .contact-text {
+        margin-left: 10px;
+        h4 {
+          font-size: 20px;
+        }
+        h6 {
+          width: 300px;
+        }
+      }
+      .inpBut {
+        margin-right: 10px;
+      }
+    }
+  }
+  footer {
+    width: 1050px;
+    height: 350px;
+    h6 {
+      font-size: 14px;
+    }
+    h5 {
+      font-size: 14px;
+    }
+    .footer-linkedtech {
+      margin-left: 230px;
+      width: 150px;
+    }
+    .footer-information {
+      width: 100px;
+    }
+    .footer-menu {
+      width: 150px;
+      margin-right: -40px;
+    }
+    .footer-useful {
+      width: 120px;
+      margin-right: -20px;
+    }
+    .footer-about {
+      width: 210px;
+    }
+  }
+}
